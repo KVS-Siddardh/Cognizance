@@ -1,0 +1,15 @@
+2.This program allows the user to get the fibonacci series of N terms
+int a,b,c,d,i,N
+display"Enter the Nth term position"
+accept N
+initialise i=0
+initialise a=0
+initialise b=1
+if i<N
+  d=a
+  c=a+b
+  a=b
+  b=c
+else 
+  print d
+  
